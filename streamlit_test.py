@@ -6,6 +6,8 @@ from streamlit.components.v1 import html
 
 st.set_page_config(page_title="Streamlit Test",page_icon=":fire:")
 
+st.header("Streamlit test for LLMs")
+
 # Option 1
 def launch_page():
     click.launch("https://www.google.com")
